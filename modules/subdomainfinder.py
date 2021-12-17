@@ -27,7 +27,7 @@ def start():
                 else:
                     print(Fore.GREEN+'[+] : Host IP : ({})'.format(ip)+Fore.YELLOW+(' | ')+Fore.GREEN+(hosts)+Fore.GREEN+'.')    
                     ip0=ip
-            except Exception:
+            except:
                 pass
     except:
         pass
