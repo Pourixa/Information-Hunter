@@ -1005,18 +1005,18 @@ simple-wp-sitemap
 aweber-web-form-widget
 """).split("\n")
 def start():
-    print(Fore.CYAN+' [!] '+Fore.YELLOW+' Welcome To WordPress Plugin Finder. ')
-    print(Fore.CYAN+' [!] '+Fore.GREEN+' Please Enter Target WordPress URL. ')
-    target=input(Fore.RED+' [~] : ')
-    if target == '':
-            while True:
-                print(Fore.CYAN+' [!] '+Fore.RED+' Please Enter Target Domain. ')
-                target=input(Fore.RED+' [~] : ')
-                if target!='':
-                    break
-                else:
-                    continue
     try:
+        print(Fore.CYAN+' [!] '+Fore.YELLOW+' Welcome To WordPress Plugin Finder. ')
+        print(Fore.CYAN+' [!] '+Fore.GREEN+' Please Enter Target WordPress URL. ')
+        target=input(Fore.RED+' [~] : ')
+        if target == '':
+                while True:
+                    print(Fore.CYAN+' [!] '+Fore.RED+' Please Enter Target Domain. ')
+                    target=input(Fore.RED+' [~] : ')
+                    if target!='':
+                        break
+                    else:
+                        continue
         if 'http' in target.lower():
             req=requests.get(target+'/wp-content/plugins/')
             if req.status_code==404 or req.status_code==500:
