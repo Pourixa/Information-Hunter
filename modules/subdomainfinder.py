@@ -23,9 +23,9 @@ def start():
                 hosts=(sub)+'.'+address
                 ip = socket.gethostbyname(hosts)
                 if ip!=ip0:
-                    print(Fore.RED+'[/] : Host IP : ({})'.format(ip)+Fore.BLUE+(' | ')+Fore.RED+(hosts)+Fore.RED+'.')
+                    print(Fore.RED+'[/] : Host IP : {}'.format(ip)+Fore.BLUE+(' | ')+Fore.RED+(hosts)+Fore.RED+'.')
                 else:
-                    print(Fore.GREEN+'[+] : Host IP : ({})'.format(ip)+Fore.YELLOW+(' | ')+Fore.GREEN+(hosts)+Fore.GREEN+'.')    
+                    print(Fore.GREEN+'[+] : Host IP : {}'.format(ip)+Fore.YELLOW+(' | ')+Fore.GREEN+(hosts)+Fore.GREEN+'.')    
                     ip0=ip
             except:
                 pass

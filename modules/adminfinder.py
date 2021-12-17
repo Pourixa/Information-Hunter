@@ -32,9 +32,9 @@ def start():
         for i in wordlist:
             req=r.get(target+str(i))
             if req.status_code==200:
-                print(Fore.GREEN+'[+] : Link : ({})'.format(target+i)+Fore.YELLOW+(' | ')+Fore.GREEN+('Found')+Fore.GREEN+'.')
+                print(Fore.GREEN+'[+] : Link : {}'.format(target+i)+Fore.YELLOW+(' | ')+Fore.GREEN+('Found')+Fore.GREEN+'.')
             elif req.status_code!=200 and req.status_code!=404:
-                print(Fore.RED+'[-] : Link : ({})'.format(target+i)+Fore.BLUE+(' | ')+Fore.RED+(str(req.status_code))+Fore.RED+'.')
+                print(Fore.RED+'[-] : Link : {}'.format(target+i)+Fore.BLUE+(' | ')+Fore.RED+(str(req.status_code))+Fore.RED+'.')
     except:
         pass
     try:
