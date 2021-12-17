@@ -30,7 +30,7 @@ def banner():
             ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
             ||||||||||||||||||||||||||||||||||||||||||||||||||||
             |     This Tool Is Used To Collect Information     |                                                   * 
-            |         Programmer : Nemesis(N3M3515)            |
+            |         Programmer : Nemesis(NEM3S1S)            |
             |            Hope You Enjoy Using It               | 
             ||||||||||||||||||||||||||||||||||||||||||||||||||||
 ''')                           
