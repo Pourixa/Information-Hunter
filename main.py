@@ -86,7 +86,6 @@ while True:
         else:
             print(Fore.RED+' [!] Wrong input. ')
             time.sleep(3)
-    except Exception as e:
-        print(e)
+    except :
         print(Fore.YELLOW+'\n [*] Good Luck')
         sys.exit()
