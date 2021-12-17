@@ -1,6 +1,6 @@
 [![Python](http://ForTheBadge.com/images/badges/made-with-python.svg)](http://www.python.org/download/) 
 
-# 👨‍💻Information-Hunter👩‍💻
+# 👨‍💻Information Hunter👩‍💻
 This Is A Tool For Gathering Information.
 ## PreView 🅿
 
