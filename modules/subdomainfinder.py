@@ -4,7 +4,7 @@ from colorama import Fore , init
 init(convert=True)
 def start():
     try:
-        subs=open('extras/toplevelnames.txt','r')
+        subs=open('extras\subnames.txt','r')
         subs=subs.read()
         subs=str(subs).split()
         print(Fore.CYAN+' [!] '+Fore.YELLOW+' Welcome To Subdomain Finder. ')
