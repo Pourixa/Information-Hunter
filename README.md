@@ -1,4 +1,4 @@
-[![Python 3.9.7](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](http://www.python.org/download/) 
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](http://www.python.org/download/) [![Python](http://ForTheBadge.com/images/badges/made-with-python.svg)](http://www.python.org/download/) 
 
 # 👨‍💻Information-Hunter👩‍💻
 This Is A Tool For Gathering Information.
