@@ -2,7 +2,7 @@ from colorama import Fore
 import ipapi
 import socket
 import sys
-TLD=open(r'Hacking And Python\extras\toplevelnames.txt','r')
+TLD=open('extras/toplevelnames.txt','r')
 TLD=TLD.read()
 TLD=TLD.split()
 infoip=None

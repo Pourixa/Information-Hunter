@@ -1,7 +1,7 @@
 import requests as r 
 from colorama import Fore
 import sys
-wordlist=open(r'Hacking And Python\extras\adminwl.txt','r')
+wordlist=open('extras/adminwl.txt','r')
 wordlist=wordlist.read()
 wordlist=wordlist.split()
 

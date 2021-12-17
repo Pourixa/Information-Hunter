@@ -3,7 +3,7 @@ import sys
 from colorama import Fore , init
 init(convert=True)
 def start():
-    subs=open(r'Hacking And Python\extras\toplevelnames.txt','r')
+    subs=open('extras/toplevelnames.txt','r')
     subs=subs.read()
     subs=str(subs).split()
     print(Fore.CYAN+' [!] '+Fore.YELLOW+' Welcome To Subdomain Finder. ')
